@@ -1,0 +1,19 @@
+syntax="proto3";
+
+option java_package="proto";
+
+service Process
+{
+  rpc process (Request) returns (Response);
+}
+
+message Request
+{
+  string name = 1;
+  string cnp = 2;
+}
+
+message Response
+{
+  string response = 1;
+}
