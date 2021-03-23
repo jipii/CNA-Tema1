@@ -1,5 +1,6 @@
 package service;
 
+import io.grpc.Status;
 import proto.ProcessGrpc;
 import proto.Server;
 

@@ -1,3 +1,5 @@
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
 import proto.Client;
 import proto.ProcessGrpc;
 
